@@ -6,14 +6,6 @@ let level = 0;
 let h2 = document.querySelector("h2");
 let h3 = document.querySelector("h3");
 
-// Function to update high score
-function updateHighScore() {
-    if (level > highScore) {    
-        highScore = level;
-        h3.innerText = `High Score: ${highScore}`;
-    }
-}
-
 // Start game on any button click
 
 document.addEventListener("keypress", function () {
